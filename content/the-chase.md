@@ -3,6 +3,7 @@ date = '2020-09-02T13:41:34-05:00'
 draft = false
 title = 'The Chase'
 gif = 'chase.gif'
+link = 'https://www.youtube.com/watch?v=895j3aFxG3o'
 +++
 
 {{< youtube 895j3aFxG3o >}}

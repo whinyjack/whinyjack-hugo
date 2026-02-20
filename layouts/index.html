@@ -7,8 +7,8 @@
     <div class="flex-column">
         <div class="thumbs-row">
             {{ range .Paginator.Pages}}
-                <a href="{{ .RelPermalink }}"><img class="thumb" src="images/gifs/{{ .Params.gif }}"></a>
-                
+                <!-- <a href="{{ .RelPermalink }}"><img class="thumb" src="images/gifs/{{ .Params.gif }}"></a> -->
+                <a href="{{ .Params.link }}" target="_blank"><img class="thumb" src="images/gifs/{{ .Params.gif }}"></a>
                  
             {{end}}
           

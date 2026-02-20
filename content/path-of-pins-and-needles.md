@@ -3,6 +3,7 @@ date = '2026-02-19T13:34:21-05:00'
 draft = false
 title = 'The Path of Pins and Needles'
 gif = 'popn.gif'
+link = 'https://www.newgrounds.com/portal/view/1017421'
 +++
 
 
