@@ -5,7 +5,7 @@ title = 'Knock Down Hard Town'
 gif = 'kdht.gif'
 +++
 
-{{< youtube dNv7Ih_lK64 >}}
+{{< ytEmbed url="https://www.youtube.com/watch?v=dNv7Ih_lK64" >}}
 
 ## © 2016 by Jack Pennington 
 
