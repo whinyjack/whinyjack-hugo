@@ -16,7 +16,7 @@ a {
 
 h1 {
     align-self: center;
-    font-size: clamp(8px, 6cqw, 72px);
+    font-size: clamp(8px, 4cqw, 72px);
     font-family: "Special Elite", system-ui;
     font-weight: 400;
     font-style: normal;
@@ -24,7 +24,7 @@ h1 {
 }
 
 p, ul {
-    font-size: 14pt;
+    font-size: 1.5rem;
     margin: 5px;
 }
 
@@ -49,7 +49,6 @@ iframe {
     border: 3px solid gray;
     border-radius: 20px;
     background-color: purple;
-    /* max-width: 70vw; */
     position: relative;
 }
 
@@ -85,7 +84,7 @@ iframe {
     flex-direction: row;
     /* flex-wrap: wrap; */
     width: 100%;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     padding: 0px;
     margin: 0px;
@@ -104,7 +103,7 @@ iframe {
 }
 
 .thumb {
-    width: 300px;
+    max-width: 300px;
     /* min-width: 300px; */
     /* margin: auto; */
     border-radius: 11px;
@@ -142,7 +141,22 @@ iframe {
         display: none;
     }
 
-    /* .thumb {
-        width: 100%;
-    } */
+    .thumb, .icon {
+        width: 70vw;
+        max-width: 600px;
+    }
+
+    .main {
+        max-width: 80vw;
+        width: fit-content;
+        min-width: 650px;
+    }
+
+    p, ul {
+        font-size: 2.5rem;
+    }
+
+    li {
+        padding: 5px;
+    }
 }
