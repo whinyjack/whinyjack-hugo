@@ -32,12 +32,12 @@ hr {
     border: solid 1px rgb(255, 255, 192);
 }
 
-iframe {
+/* iframe {
     background-color: gray;
     border-radius: 20px;
     border: yellow 2px solid;
     width: 60vw;
-}
+} */
 
 .main {
     display: flex;
