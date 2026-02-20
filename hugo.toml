@@ -1,0 +1,9 @@
+baseURL = 'https://whinyjack.github.io/whinyjack-hugo/'
+languageCode = 'en-us'
+title = 'whinyjack.com'
+canonifyURLs = true
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+

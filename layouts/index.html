@@ -1,0 +1,18 @@
+{{ define "main" }}
+<div class="flex-row">
+    <div class="flex-column">
+        <img class="icon" src="/images/whinyJackIcon.png">
+
+    </div>
+    <div class="flex-column">
+        <div class="thumbs-row">
+            {{ range .Paginator.Pages}}
+                <a href="{{ .RelPermalink }}"><img class="thumb" src="images/gifs/{{ .Params.gif }}"></a>
+                
+                 
+            {{end}}
+          
+        </div>
+    </div>
+</div>
+{{end}}
