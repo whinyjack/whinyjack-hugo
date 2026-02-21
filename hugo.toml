@@ -1,4 +1,4 @@
-baseURL = 'https://whinyjack.github.io/whinyjack-hugo/'
+baseURL = 'https://www.whinyjack.com'
 languageCode = 'en-us'
 title = 'whinyjack.com'
 canonifyURLs = true
